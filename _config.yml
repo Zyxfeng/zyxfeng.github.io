@@ -1,0 +1,16 @@
+# site settings
+
+title: zyxw_feng
+author: 
+  name: zyxw_feng
+  email: zyxw_feng@163.com
+  github: Zyxfeng
+  weibo: https://weibo.com/p/1005053123140125
+
+# bulid settings
+permalink: /:categories/:year/:month/:day/:title.html #博文固定链接
+paginate: 10                                          #分页时每页博文
+
+markdown: kramdown
+highlighter: rouge
+auto: true
