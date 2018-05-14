@@ -11,8 +11,9 @@ author:
   weibo: https://weibo.com/p/1005053123140125
 
 # bulid settings
-permalink: /:categories/:year/:month/:day/:title.html #博文固定链接
+permalink: /:year/:month/:day/:title/                 #博文固定链接
 paginate: 10                                          #分页时每页博文
+paginate_path: "/page/:num/"
 
 markdown: kramdown
 highlighter: rouge
