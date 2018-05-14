@@ -1,6 +1,9 @@
 # site settings
 
 title: zyxw_feng
+subtitle: A blog-orientaion  by jekyll
+welcome_message: Welcome to my blog
+description: This blog created by Zyxw_feng 
 author: 
   name: zyxw_feng
   email: zyxw_feng@163.com
@@ -14,4 +17,7 @@ paginate: 10                                          #分页时每页博文
 markdown: kramdown
 highlighter: rouge
 auto: true
-theme: jekyll-theme-architect
+cover_color: red
+blog_button:
+  title: Blog
+  description: Visit blog
