@@ -17,7 +17,7 @@ paginate: 10                                          #分页时每页博文
 markdown: kramdown
 highlighter: rouge
 auto: true
-cover_color: red
+cover_color: lightgrey
 blog_button:
   title: Blog
   description: Visit blog
