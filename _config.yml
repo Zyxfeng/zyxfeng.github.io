@@ -18,7 +18,7 @@ paginate_path: "/page/:num/"
 markdown: kramdown
 highlighter: rouge
 auto: true
-cover_color: lightgrey
+cover_color: pink
 
 blog_button:
   title: Blog
