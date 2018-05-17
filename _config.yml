@@ -23,3 +23,10 @@ cover_color: pink
 blog_button:
   title: Blog
   description: Visit blog
+
+#social
+social:
+  weibo: Zyxwfeng
+  github: Zyxfeng
+  twitter: zyxw_feng
+  mail: zyxw_feng@163.com
