@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>
+        <![CDATA[RSSHub]]>
+        </title>   
+        <link>https://github.com/DIYgod/RSSHub</link>        
+        <description>
+            <![CDATA[ - 使用 RS(https://github.com/DIYgod/RSSHub) 构建]]>
+        </description>        
+        <generator>RSSHub</generator>    
+        <webMaster>i@html.love</webMaster>    
+        <language>zh-cn</language>                
+        <lastBuildDate>Thu, 17 May 2018 13:21:50 GMT</lastBuildDate>    <ttl>600</ttl>            
+    </channel>
+</rss>
