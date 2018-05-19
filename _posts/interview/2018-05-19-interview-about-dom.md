@@ -68,7 +68,7 @@ Style Rules 树形结构
 > 通过自顶向下的给每个节点的子节点分配可行宽度，计算每个节点的实际宽度。<br>
 > 通过应用文字折行、累加子节点的高度和此节点的内边距(padding)、边框(border)和外边距(margin)，自底向上的计算每个节点的高度。<br>
 > 使用上面的计算结果构建每个节点的坐标。
-> 当存在元素使用`floated`，位置有`absolutely`，或`relativly`属性的时候，会有更多复杂的计算，详见：http://dev.w3.org/csswg/css2/ 和  http://www.w3.org/Style/CSS/current-work 
+> 当存在元素使用`floated`，位置有`absolutely`，或`relativly`属性的时候，会有更多复杂的计算，详见：[http://dev.w3.org/csswg/css2/](http://dev.w3.org/csswg/css2/) 和 [http://www.w3.org/Style/CSS/current-work](http://www.w3.org/Style/CSS/current-work )
 
 - 布局Layout
 > 创建渲染树后，下一步就是布局（Layout）,或者叫回流（reflow,relayout），这个过程就是通过渲染树中渲染对象的信息，计算出每一个渲染对象的位置和尺寸，将其安置在浏览器窗口的正确位置，而有些时候我们会在文档布局完成后对DOM进行修改，这时候可能需要重新进行布局，也可称其为回流，本质上还是一个布局的过程，每一个渲染对象都有一个布局或者回流方法，实现其布局或回流。<br>
@@ -104,6 +104,6 @@ Style Rules 树形结构
 了解渲染过程原理可以有针对的性能优化，而且也可以懂得一些基本的要求和规范的原理。
 
 ### 参考连接
-1. https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
-2. https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/
-3. https://github.com/skyline75489/what-happens-when-zh_CN/blob/master/README.rst
+1. [https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+2. [https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
+3. [https://github.com/skyline75489/what-happens-when-zh_CN/blob/master/README.rst](https://github.com/skyline75489/what-happens-when-zh_CN/blob/master/README.rst)
